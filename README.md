@@ -1,6 +1,5 @@
 # Adaptive Bridge Fusion for Heterogeneous Feature Learning in Visual Facial Expression Analysis
 
-This repository contains the official implementation of the manuscript submitted to *The Visual Computer*.
 
 ## Method Overview
 
