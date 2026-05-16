@@ -1,0 +1,15 @@
+# Install a CUDA-compatible PyTorch build following https://pytorch.org/get-started/locally/ when needed.
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23
+opencv-python>=4.8
+pillow>=9.0
+scikit-learn>=1.2
+matplotlib>=3.7
+pandas>=1.5
+tqdm>=4.64
+pyyaml>=6.0
+thop>=0.1.1
+# Optional: only required when using MODEL.BACKEND_TYPE: mamba
+# mamba-ssm>=2.0
+# causal-conv1d>=1.4
