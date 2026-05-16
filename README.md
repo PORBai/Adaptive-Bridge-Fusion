@@ -10,7 +10,7 @@ ABF-Net is designed for visual facial expression analysis with heterogeneous fea
 - **Compact Conv-SE backend.** A lightweight convolutional backend with squeeze-and-excitation recalibration performs efficient classification from the fused bridge representation.
 
 The core implementation is directly related to the submitted manuscript. If you use this code, please cite the manuscript listed in `docs/CITATION.md`.
-![Adaptive Bridge Fusion Layer](assets/图二.png)
+
 
 ## Repository Structure
 
