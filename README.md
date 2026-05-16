@@ -125,16 +125,21 @@ Confusion matrix and paper-style reports:
 python tools/run_postprocess.py --config configs/abfnet_rafdb.yaml --exp-name abfnet_rafdb --confusion-title RAF-DB --dpi 300
 ```
 
-## Reproducibility
+## Pretrained Checkpoints
 
-The main results reported in the manuscript are:
+| Dataset | Accuracy (%) | Checkpoint | Notes |
+|---|---:|---|---|
+| RAF-DB | 92.37 |[https://pan.quark.cn/s/407c4d9b1bcf] | Best checkpoint selected on RAF-DB |
+| FERPlus | 89.02 | [https://pan.quark.cn/s/407c4d9b1bcf] | Best checkpoint selected on FERPlus |
+| AffectNet-7 | 81.47 | [https://pan.quark.cn/s/407c4d9b1bcf] | Best checkpoint under 7-class setting |
+| AffectNet-8 | 79.33 | [https://pan.quark.cn/s/407c4d9b1bcf]| Best checkpoint under 8-class setting |
 
-| Dataset | Accuracy |
-| --- | ---: |
-| RAF-DB | 92.37% |
-| FERPlus | 89.02% |
-| AffectNet-7 | 81.47% |
-| AffectNet-8 | 79.33% |
+## Usage
+
+After downloading a checkpoint, place it under:
+
+```bash
+checkpoints/
 
 Actual results may vary slightly depending on hardware, random seed, dataset preprocessing, and software versions.
 
